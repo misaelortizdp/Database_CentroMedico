@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ProyectoInicial">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="GTH-741:SINCO\misael.ortiz">
+          <Created>2022-07-05T12:23:56.4120894-05:00</Created>
+          <Type>SQL</Type>
+          <Server>GTH-741</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="GTH-741\MYSQLDEVELOP:SINCO\misael.ortiz">
+          <Created>2022-07-05T12:27:34.1347122-05:00</Created>
+          <Type>SQL</Type>
+          <Server>GTH-741\MYSQLDEVELOP</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="ALTA_Especialidad.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>ALTA_Especialidad.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ALTA_Medico.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>ALTA_Medico.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ALTA_Paciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:GTH-741\MYSQLDEVELOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>GTH-741\MYSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ALTA_Paciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ALTA_Turno.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:GTH-741\MYSQLDEVELOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>GTH-741\MYSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ALTA_Turno.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Backup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:GTH-741:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>GTH-741</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Backup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="COMPILACION_DE_CONSULTAS.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>COMPILACION_DE_CONSULTAS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DEL_Turno.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DEL_Turno.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EstructurasDeControl.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:GTH-741:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>GTH-741</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>EstructurasDeControl.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FCN_FechaTexto.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:GTH-741:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>GTH-741</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FCN_FechaTexto.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Funciones.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:GTH-741\MYSQLDEVELOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>GTH-741\MYSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Funciones.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FuncionesDeConversion.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>FuncionesDeConversion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Joins.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Joins.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Operadores.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:GTH-741:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>GTH-741</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Operadores.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Reiniciar Identity.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:GTH-741\MYSQLDEVELOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>GTH-741\MYSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Reiniciar Identity.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SEL_EspecialidadesMedicas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:GTH-741\MYSQLDEVELOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>GTH-741\MYSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SEL_EspecialidadesMedicas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SEL_HistoriaPaciente.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SEL_HistoriaPaciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SEL_TurnosPaciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:GTH-741\MYSQLDEVELOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>GTH-741\MYSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SEL_TurnosPaciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Sentencias.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Sentencias.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:GTH-741:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>GTH-741</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery4.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:GTH-741:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>GTH-741</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery4.sql</FullPath>
+        </FileNode>
+        <FileNode Name="STORED_PROCEDURES_INTRO.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>STORED_PROCEDURES_INTRO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TablasTemporales.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:GTH-741\MYSQLDEVELOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>GTH-741\MYSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TablasTemporales.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Transacciones.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Transacciones.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UPD_Paciente.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>UPD_Paciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UPD_Turno.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>UPD_Turno.sql</FullPath>
+        </FileNode>
+        <FileNode Name="VIEW_MedicosEspecialidades.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:GTH-741:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>GTH-741</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>VIEW_MedicosEspecialidades.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Vistas.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Vistas.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
